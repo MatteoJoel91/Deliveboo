@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// regole comuni
+@import '_common';
+
+// regole admin per home
+@import 'admin/_home';
+
+// regole admin -> layouts -> base 
+@import 'admin/_layouts-base';
+
+// regole admin -> food 
+@import 'admin/_food-show';
+
+// regole admin -> auth -> password -> login 
+@import 'admin/_auth-password-login';
+
+@import 'email/_email.scss';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// icone bootstrap
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+// scss bootstrap-vue
+@import "node_modules/bootstrap-vue/src/index.scss";
